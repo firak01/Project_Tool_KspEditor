@@ -9,7 +9,7 @@ import basic.zBasic.ExceptionZZZ;
 import basic.zBasic.ReflectCodeZZZ;
 import basic.zBasic.util.datatype.dateTime.DateTimeZZZ;
 import basic.zBasic.util.file.FileEasyZZZ;
-import basic.zBasic.util.file.txt.stream.FileTextReplacerZZZ;
+import basic.zBasic.util.file.txt.stream.FileTextLineReplacerZZZ;
 import basic.zBasic.util.file.txt.stream.FileTextWriterZZZ;
 import use.tool.ksp.object.FlightstateMatch;
 import use.tool.ksp.object.VesselMatch;
@@ -89,7 +89,7 @@ public class VesselReplacer extends AbstractParserUsingTool {
 		        // 5. Vessel ersetzen
 				File fileGame = objParserGame.getFile();
 				
-				FileTextReplacerZZZ objFileTextReplacer = new FileTextReplacerZZZ(fileGame);
+				FileTextLineReplacerZZZ objFileTextReplacer = new FileTextLineReplacerZZZ(fileGame);
 				boolean bSuccess = objFileTextReplacer.replace(iLineInFileStart, iLineInFileEnd, listaStringReplacement);
 				if(bSuccess) {
 					
