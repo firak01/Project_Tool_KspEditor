@@ -42,6 +42,11 @@ d) Korrektes Drehen der Teile der neuen Struktur
 s. Positionieren.
 
 -------------------------------
+Hier ist die Beschreibung wie diese Projekt anhand einer Vorlage erstellt wurde.<BR>
+Zudem ist dort auch die Berschreibung von Besonderheiten / Sinn von einigen Ordner, etc.<BR>
+https://github.com/firak01/Project_JAZRepositoryDummyTemplate#projekt_jazrepositorydummytemplate
+
+-------------------------------
 Neues Repository anhand einer Vorlage erstellt. (JAZ...DummyTemplate)
 Das neue Repository lokal clonen.<br>
 Umbennung des Verzeichnisordners "...TEMPLATE..." kann in der "normalen" GitHub - Seite nicht erfolgen. Git kann auch keine Verzeichnisse umbenennen.
